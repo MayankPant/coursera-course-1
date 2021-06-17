@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Menu</title>
+	<style type="text/css">
+		*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #4e3279;
+	color: white;
+}
+.container{
+	width: 100%
+}
+.rows {
+	width: 90%;
+	margin: 50px auto 50px auto;
+}
+.rows > div{
+	border: 1px solid black;
+	background-color: deeppink;
+	
+}
+h1{
+	width: 90%;
+	text-align: center;
+	margin: 50px auto 50px auto;
+}
+h2{
+	float: right;
+	clear: left;
+	background-color: darkgreen;
+	width: 40%;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	padding: 3px;
+
+}
+P{
+	background-color: deeppink;
+	clear: right;
+	padding: 10px;
+}
+@media (min-width: 992px)
+{
+	.col-lg-4{
+		width: 30%;
+		float: left;
+		margin: 10px ;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#p1 ,#p2{
+		width: 45%;
+		float: left;
+		margin: 10px;
+	}
+	#p3{
+		width: 93%;
+		margin: 10px;
+		clear: both;
+	}
+}
+@media (max-width: 767px)
+{
+	.col-lg-4{
+		width: 100%;
+		float: left;
+		margin: 10px ;
+	}
+}
+
+	</style>
+</head>
+<body>
+	<div class="Container">
+	<h1>Our Menu</h1>
+		<div class="rows">
+			<div class="col-lg-4" id="p1"><h2>Chicken</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+
+			<div class="col-lg-4" id="p2"><h2>Beef</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+			<div class="col-lg-4" id="p3"><h2>Shushi</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+</div>
+</div>
+</body>
+</html>
